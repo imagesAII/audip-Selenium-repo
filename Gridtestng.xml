@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Grid Parallel Suite" parallel="classes" thread-count="4">
+
+    <test name="CrossBrowser Grid Tests">
+        <classes>
+            <class name="GridTest1"/>
+            <class name="GridTest2"/>
+        </classes>
+    </test>
+
+</suite>
